@@ -1,0 +1,20 @@
+<div class="container">
+  <div class="row">
+    <div class="cols">
+      <h1>
+        calculadora
+      </h1>
+      <hr/>
+      <app-formulario
+      (resultadoCreado)="onSumar($event)">
+   
+      </app-formulario>
+      <hr/>
+      <app-resultado
+      [resultado]="resultado">
+      </app-resultado>
+    </div>
+  </div>
+</div>
+
+  
